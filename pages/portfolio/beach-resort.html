@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <link rel="stylesheet" href="../../styles/item-fx.css">
+    <link rel="stylesheet" href="../../styles/viewport.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>My Portfolio</title>
+    <script src="../../scripts/loading-screen.js"></script>
+</head>
+
+<body>
+    <div id="onload-con">
+        <img src="../../page-src/images/onload.gif" alt="" class="onload-screen">
+    </div>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../../index.html">Home</a></li>
+                <li><a href="../my-works.html">My Works</a></li>
+                <li><a href="../about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="activity">
+        <a href="../my-works.html" id="back" >Back</a>
+        <div id="activity-content">
+            <h1>Beach Resort Activity</h1>
+            <p>In this activity, i've learned that creating a website requires a deep understanding of user
+                experience. Also the importance of intuitive navigation, clear calls-to-action, and engaging
+                content to guide visitors through their journey seamlessly.
+                Prioritizing user needs and preferences ensures a positive and memorable experience.
+                I've learned the significance of designing websites that adapt fluidly to various screen sizes and
+                devices. Embracing responsive design principles ensures that the beach resort website remains accessible
+                and functional for all users, regardless of their chosen device.</p>
+                <div id="sample-sites">
+                    <iframe src="https://liandjelo.github.io/hayahay-beach-resort1/" frameborder="0" id="sample-sites">
+
+                    </iframe>
+                </div>
+                <div class="act-img-con">
+                    <div class="button" onclick="rightScroll()">
+                        <
+                    </div>
+                    <div class="activity-img-con">
+                        <img src="../../page-src/images/beach-resort/beach-resort1.png" alt="" id="sliding-left">
+                        <img src="../../page-src/images/beach-resort/beach-resort3.png" alt="">
+                        <img src="../../page-src/images/beach-resort/beach-resort4.png" alt="">
+                    </div>
+                    <div class="button" onclick="leftScroll()" id="left-btn">
+                        >
+                    </div>
+                </div>
+           
+                
+            <h1>My Codes</h1>
+            <div class="act-img-con" id="code-con">
+                <div class="button" onclick="coderightScroll()">
+                    <
+                </div>
+                <div class="activity-img-con">
+                    <img src="../../page-src/images/beach-resort/1.png" alt="" id="sliding-code-left">
+                    <img src="../../page-src/images/beach-resort/2.png" alt="">
+                    <img src="../../page-src/images/beach-resort/3.png" alt="">
+                    <img src="../../page-src/images/beach-resort/4.png" alt="">
+                    <img src="../../page-src/images/beach-resort/5.png" alt="">
+                    <img src="../../page-src/images/beach-resort/6.png" alt="">
+                    <img src="../../page-src/images/beach-resort/7.png" alt="">
+                    <img src="../../page-src/images/beach-resort/8.png" alt="">
+                    <img src="../../page-src/images/beach-resort/9.png" alt="">
+                </div>
+                <div class="button" onclick="codeleftScroll()" id="left-btn">
+                    >
+                </div>
+            </div>
+         
+        </div>
+
+
+    </main>
+    <footer>
+        <div>
+            <ul>
+                <li>Liandjelo Martos</li>
+                <li>Email me@: <a href="mailto:" id="my-email"><em>liandjelomartos28@gmail.com</em></a></li>
+                <li>Contact me@: 09123151649</li>
+            </ul>
+        </div>
+        <div id="follow">
+            <a href="https://www.facebook.com/jiomartos/">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a href="">
+                <i class="fa-brands fa-square-instagram"></i>
+            </a>
+        </div>
+    </footer>
+    <script src="../../scripts/main.js"></script>
+    <script>
+           document.getElementsByTagName('header')[0].style.opacity = "1";
+            document.getElementsByTagName('footer')[0].style.opacity = "1";
+    </script>
+</body>
+
+</html>

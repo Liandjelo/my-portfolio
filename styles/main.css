@@ -1,0 +1,259 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+@font-face {
+    font-family: "berlin";
+    src: local('berlin'), url('../page-src/fonts/berlin-sans-fb-webfont/BRLNSR.woff') format('woff');
+}
+@font-face {
+    font-family: "myriad";
+    src: local("myriad"), url('../page-src/fonts/myriad-pro/MYRIADPRO-REGULAR.OTF') format('opentype'),
+         url('../page-src/fonts/myriad-pro/myriad-pro/MYRIADPRO-SEMIBOLD.OTF') format('opentype');
+}
+
+body{
+    margin: 0px;
+}
+header{
+    background-color: #666666;
+    display: flex;
+    justify-content: end;
+    opacity: 0;
+}
+nav ul{
+    display: flex;
+    gap: 10px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+nav ul li{
+    list-style-type: none;
+    font-family: "myriad", sans-serif;
+    margin-right: 20px;
+}
+nav ul li a{
+   text-decoration: none;
+   text-transform: uppercase;
+   color: #fff;
+   font-weight: bold;
+}
+#profile-text{
+    font-family: "berlin", sans-serif;
+
+}
+#follow{
+    display: flex;
+    gap: 10px;
+}
+.fa-facebook, .fa-square-instagram{
+    font-size: 40px;
+    color: #fff;
+}
+#profile-text h1{
+    font-size: 40px;
+ 
+}
+#sample-sites{
+    height: 100vh;
+    width: 100vw;
+}
+#sample-sites iframe{
+   width: 100%;
+   border: 1px solid #666666;
+}
+#profile-text1, #profile-text p {
+    overflow: hidden;
+    width: 0%;
+    white-space: nowrap;
+}
+#profile-description{
+    font-family: inter, Helvetica, sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    opacity: 0;
+}
+#activity-content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#Home-Content{
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    padding: 7%;
+}
+#profile-text-con{
+    display: flex;
+    flex-direction: column;
+}
+#home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Profile img{
+border-radius: 300px;
+}
+#about-text{
+    opacity: 0;
+}
+#Profile{
+    opacity: 0;
+}
+#h2{
+    font-size: 25px;
+    border-bottom: 1px solid #b3b3b3;
+    padding-bottom: 20px;
+}
+#works-title{
+    font-family: inter, sans-serif;
+    text-align: center;
+}
+#works-title h1{
+    font-size: 40px;
+    font-weight: 800;
+}
+#work-text{
+    opacity: 0;
+    border-bottom: 1px solid #b3b3b3;
+    padding-bottom: 30px;
+}
+#works-content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    gap: 20px;
+  
+
+}
+#my-works{
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+   
+}
+.image-gallery{
+    width: 460px;
+    height: 270px;
+}
+#works-gallery{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 1%;
+    margin-bottom: 20px;
+    opacity: 0;
+   /* animation: slideLeft 1s ease-in;*/
+}
+#works-gallery img{
+    border: 1px solid #cfcfcf;
+}
+#works-gallery a {
+    margin: 3px;
+}
+#works-gallery img{
+    border-radius: 10px;
+    
+}
+.home-prof{
+    height: 268px;
+}
+.about-prof{
+    height: 250px;
+}
+#about h1{
+font-family: "berlin", sans-serif;
+font-size: 50px;
+}
+
+#about p {
+    font-family: inter, Helvetica, sans-serif;
+    font-size: 17px;
+}
+#about{
+    padding: 3%;
+}
+#works-content p{
+    font-family:inter, Helvetica, sans-serif;
+    font-size: 17px;
+}
+footer{
+    color: #fff;
+    background-color: #666666;
+    display: flex;
+    font-family:inter, Helvetica, sans-serif;
+    opacity: 0;
+    padding: 10px;
+    flex-direction: column;
+}
+footer ul {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+}
+footer li {
+    list-style-type: none;
+}
+#my-email{
+    color: #fff;
+}
+#activity-content{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.activity-img-con{
+    width: 90%;
+    overflow: hidden;
+    display: flex;
+    
+}
+.act-img-con{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ gap: 3px;
+}
+.act-img-con .button{
+font-size: 30px;
+border: 1px solid #757575;
+cursor: pointer;
+user-select: none;
+padding: 10px;
+border-radius: 100px;
+}
+#activity-content h1{
+    font-family: "berlin", sans-serif;
+}
+#activity-content p{
+    font-family:inter, Helvetica, sans-serif;
+}
+#activity-content img{
+    width: 100%;
+}
+#back{
+    margin: 20px;
+    font-family:inter, Helvetica, sans-serif;
+    color: #666666;
+}
+#code-con{
+    margin-bottom: 20px;
+}
+#onload-con{
+    background-color: #fff;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#onload-con img{
+    height: 100px;
+}

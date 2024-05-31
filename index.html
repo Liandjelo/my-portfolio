@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/item-fx.css">
+    <link rel="stylesheet" href="styles/animation.css">
+    <link rel="stylesheet" href="styles/viewport.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>My Portfolio</title>
+    <script src="scripts/loading-screen.js"></script>
+    <script src="scripts/animation.js"></script>
+</head>
+
+<body>
+    <div id="onload-con">
+        <img src="page-src/images/onload.gif" alt="" class="onload-screen">
+    </div>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a onclick='hideElement("index.html","home")'>Home</a></li>
+                <li><a onclick='hideElement("pages/my-works.html", "home")'>My Works</a></li>
+                <li><a onclick='hideElement("pages/about.html", "home")'>About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="home">
+        <div id="Home-Content">
+            <div id="Profile"><img src="page-src/images/profile-1.jpg" alt="imge" class="home-prof"></div>
+            <div id="profile-text-con">
+                <div id="profile-text">
+                    <h1 id="profile-text1">" Hi i'm Liandjelo Martos</h1>
+                    <p id="h2">Creative Designer & Developer "</p>
+                </div>
+                <div id="profile-description">
+                    <p>Hi! I'm Liandjelo, a Developer student with a passion for
+                        Designing and Developing website. I'm dedicated to learning
+                        and growing in Web development while exploring new opportunities
+                        to make a positive impact.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        <div>
+            <ul>
+                <li>Liandjelo Martos</li>
+                <li>Email me: <a href="mailto:" id="my-email"><em>liandjelomartos28@gmail.com</em></a></li>
+                <li>Contact me: 09123151649</li>
+            </ul>
+
+        </div>
+        <div id="follow">
+            <a href="https://www.facebook.com/jiomartos/">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a href="">
+                <i class="fa-brands fa-square-instagram"></i>
+            </a>
+        </div>
+    </footer>
+    <script src="scripts/main.js"></script>
+    <script>
+        localStorage.removeItem("stop-animation");
+        var sec = "2s";
+
+        setTimeout(() => {
+            fadeIn("Profile", sec);
+            slideInText("profile-text1", "3s");
+            headfoot();
+        }, 500);
+        setTimeout(() => {
+            slideInText("h2", "3s");
+        }, 4000);
+        setTimeout(() => {
+            fadeIn("profile-description", sec);
+        }, 7200);
+    </script>
+</body>
+
+</html>
