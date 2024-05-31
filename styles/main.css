@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 @font-face {
     font-family: "berlin";
@@ -67,7 +68,7 @@ nav ul li a{
     white-space: nowrap;
 }
 #profile-description{
-    font-family: inter, Helvetica, sans-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 17px;
     font-style: normal;
     opacity: 0;
@@ -109,7 +110,7 @@ border-radius: 300px;
     padding-bottom: 20px;
 }
 #works-title{
-    font-family: inter, sans-serif;
+    font-family: "Poppins", sans-serif;
     text-align: center;
 }
 #works-title h1{
@@ -171,14 +172,14 @@ font-size: 50px;
 }
 
 #about p {
-    font-family: inter, Helvetica, sans-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 17px;
 }
 #about{
     padding: 3%;
 }
 #works-content p{
-    font-family:inter, Helvetica, sans-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 17px;
 }
 footer{
@@ -233,14 +234,14 @@ border-radius: 100px;
     font-family: "berlin", sans-serif;
 }
 #activity-content p{
-    font-family:inter, Helvetica, sans-serif;
+      font-family: "Poppins", sans-serif;
 }
 #activity-content img{
     width: 100%;
 }
 #back{
     margin: 20px;
-    font-family:inter, Helvetica, sans-serif;
+    font-family: "Poppins", sans-serif;
     color: #666666;
 }
 #code-con{
