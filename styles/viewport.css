@@ -34,7 +34,15 @@
      #works-content #work-text, #about-text p{
        font-size: 30px;
       }
-
+       #Home-Content #profile-description{
+        text-align: justify;
+      }
+       #works-content #work-text, #about-text p{
+        text-align: justify;
+       }
+       #activity-content p{
+        text-align: justify;
+       }
   }
 @media only screen and (max-width: 767px) {
     /* Styles for Smartphones */
