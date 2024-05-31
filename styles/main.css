@@ -17,6 +17,7 @@ header{
     display: flex;
     justify-content: end;
     opacity: 0;
+    user-select: none;
 }
 nav ul{
     display: flex;
