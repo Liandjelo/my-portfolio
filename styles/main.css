@@ -17,13 +17,13 @@ header{
     display: flex;
     justify-content: end;
     opacity: 0;
-    user-select: none;
+     cursor: pointer;
 }
 nav ul{
     display: flex;
     gap: 10px;
     margin: 20px;
-    cursor: pointer;
+   
 }
 
 nav ul li{
