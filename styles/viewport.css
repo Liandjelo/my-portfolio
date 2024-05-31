@@ -22,6 +22,9 @@
     #Home-Content h1{
         font-size: 60px;
       }
+       #about h1{
+        font-size: 60px;
+      }
       #Home-Content #h2{
         font-size: 45px;
       }
@@ -85,6 +88,8 @@
        #activity-content p{
         text-align: justify;
        }
- 
+        #about h1{
+        font-size: 40px;
+      }
   }
     
