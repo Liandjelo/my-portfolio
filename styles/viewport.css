@@ -68,10 +68,13 @@
       }
       #Home-Content #profile-description{
         font-size: 22px;
+        text-align: justify;
       }
       #works-content #work-text, #about-text p{
         font-size: 20px;
+        text-align: justify;
        }
+ 
  
   }
     
