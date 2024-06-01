@@ -16,7 +16,7 @@
     <script src="scripts/animation.js"></script>
 </head>
 
-<body>
+<body id="body">
     <div id="onload-con">
         <img src="page-src/images/onload.gif" alt="" class="onload-screen">
     </div>
@@ -84,6 +84,9 @@
         setTimeout(() => {
             fadeIn("profile-description", sec);
         }, 7200);
+         window.addEventListener('beforeunload',()=> {
+         hideElements("body");
+    });
     </script>
 </body>
 
