@@ -5,11 +5,13 @@ window.addEventListener('load',()=>{
         if (b){
               b.style.display = '';   
         }
-       
-        var a = document.getElementsByClassName("button");
-        Array.from(a).forEach(e=> {
+       if(a){
+          var a = document.getElementsByClassName("button");
+          Array.from(a).forEach(e=> {
                 e.style.display = 'flex';
         });
+       }
+
 });
 function hideElements(x){
         document.getElementById(x).display = 'none';
