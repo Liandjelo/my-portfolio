@@ -15,7 +15,7 @@
     <script src="../scripts/loading-screen.js"></script>
 </head>
 
-<body>
+<body id="body">
     <div id="onload-con">
         <img src="../page-src/images/onload.gif" alt="" class="onload-screen">
     </div>
@@ -102,6 +102,10 @@
         setTimeout(() => {
             fadeIn("about-text", "2s");
         }, 5000);
+
+            window.addEventListener('beforeunload',()=> {
+            hideElements("body");
+    });
     </script>
 </body>
 
