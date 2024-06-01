@@ -34,7 +34,7 @@
   height: 290px;
 }
 }
-@media only screen and (min-width: 768px) and (max-width: 1110px) {
+@media only screen and (min-width: 767px) and (max-width: 1110px) {
     #activity-content p {
         font-size: 30px;
     }
@@ -90,7 +90,7 @@
         text-align: justify;
        }
   }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 766px) {
     /* Styles for Smartphones */
  
     #Home-Content{
