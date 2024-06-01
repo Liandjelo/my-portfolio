@@ -14,7 +14,7 @@ body{
     margin: 0px;
 }
 header{
-    background-color: #031824;
+    background-color: #010d14;
     display: flex;
     justify-content: end;
     opacity: 0;
@@ -191,7 +191,7 @@ font-size: 50px;
 }
 footer{
     color: #fff;
-    background-color: #031824;
+     background-color: #010d14;
     display: flex;
     font-family:inter, Helvetica, sans-serif;
     opacity: 0;
