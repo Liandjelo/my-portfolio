@@ -1,7 +1,11 @@
 
 window.addEventListener('load',()=>{
-        document.getElementById('onload-con').style.display = 'none'; 
-        document.getElementById('body').style.display = ''; 
+        document.getElementById('onload-con').style.display = 'none';
+        var b =  document.getElementById('body');
+        if (b){
+              b.style.display = '';   
+        }
+       
         var a = document.getElementsByClassName("button");
         Array.from(a).forEach(e=> {
                 e.style.display = 'flex';
