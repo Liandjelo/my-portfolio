@@ -263,6 +263,8 @@ color: #666666;
     display: flex;
     justify-content: center;
     align-items: center;
+    top: 0;
+    left: 0;
 }
 #onload-con img{
     height: 100px;
