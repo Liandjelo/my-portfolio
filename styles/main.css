@@ -46,7 +46,7 @@ nav ul li a{
     gap: 10px;
 }
 .img-buttons{
-    display: flex;
+    display: none;
     position: absolute;
     justify-content: space-between;
     width: 1200px;
