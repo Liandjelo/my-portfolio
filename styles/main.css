@@ -211,6 +211,9 @@ footer li {
 #my-email, #github{
     color: #fff;
 }
+#github{
+    font-style: italic;
+}
 #activity-content{
     width: 90%;
     display: flex;
