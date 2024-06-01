@@ -2,11 +2,12 @@
 window.addEventListener('load',()=>{
         document.getElementById('onload-con').style.display = 'none';
         var b =  document.getElementById('body');
+        var a = document.getElementsByClassName("img-buttons");
         if (b){
               b.style.display = '';   
         }
        if(a){
-          var a = document.getElementsByClassName("img-buttons");
+          
           Array.from(a).forEach(e=> {
                 e.style.display = 'flex';
         });
