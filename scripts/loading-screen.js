@@ -6,7 +6,7 @@ window.addEventListener('load',()=>{
               b.style.display = '';   
         }
        if(a){
-          var a = document.getElementsByClassName("button");
+          var a = document.getElementsByClassName("img-buttons");
           Array.from(a).forEach(e=> {
                 e.style.display = 'flex';
         });
