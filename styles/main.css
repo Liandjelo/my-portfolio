@@ -165,7 +165,7 @@ border-radius: 300px;
 .image-gallery{
     width: 100%;
     height: 100%;
-    border-radius: 4px;
+    border-radius: 10px;
 }
 .home-prof{
     height: 268px;
@@ -235,7 +235,7 @@ footer li {
     background-color: #010d14;
     width: 310px;
     display: flex;
-    border-radius: 10px;
+    border-radius: 20px;
     box-shadow: 4px 6px 5px 0px rgba(0,0,0,0.75);
 }
 .activity-img-con img{
