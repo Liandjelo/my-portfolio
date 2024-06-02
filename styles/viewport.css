@@ -98,9 +98,7 @@
        #works-content #work-text, #about-text p{
         text-align: justify;
        }
-       #activity-content p{
-        text-align: justify;
-       }
+      
        .img-con{
         width: 400px;
       }
@@ -169,8 +167,6 @@
         font-size: 20px;
         text-align: justify;
        }
-       #activity-content p{
-        text-align: justify;
-       }
+     
   }
     
