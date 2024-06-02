@@ -264,7 +264,7 @@ color: #666666;
     width: 100%;
 }
 #back{
-    margin: 20px;
+    align-self: start;
     font-family: "Poppins", sans-serif;
     color: #000;
     font-size: 20px;
