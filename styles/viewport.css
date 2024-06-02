@@ -34,6 +34,11 @@
   height: 290px;
 }
 }
+@media (max-width: 1110px){
+  #works-gallery{
+    gap: 10px;
+  }
+}
 @media only screen and (min-width: 767px) and (max-width: 1110px) {
   #works-gallery{
     flex-direction: column;
