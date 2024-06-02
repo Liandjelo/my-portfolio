@@ -103,7 +103,7 @@
     /* Styles for Smartphones */
     #works-gallery{
   flex-direction: column;
-   /* animation: slideLeft 1s ease-in;*/
+  
 }
     .act-img-con .button{
       font-size: 40px;
