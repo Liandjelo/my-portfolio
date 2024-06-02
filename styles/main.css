@@ -215,7 +215,7 @@ footer li {
     font-style: italic;
 }
 #activity-content{
-    width: 96%;
+    width: 94%;
     display: flex;
     flex-direction: column;
     align-items: center;
