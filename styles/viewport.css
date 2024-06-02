@@ -37,7 +37,7 @@
 @media only screen and (min-width: 767px) and (max-width: 1110px) {
   #works-gallery{
     flex-direction: column;
-     /* animation: slideLeft 1s ease-in;*/
+    flex-wrap: nowrap;
   }
   .act-img-con .button{
     font-size: 90px;
@@ -107,6 +107,7 @@
     /* Styles for Smartphones */
     #works-gallery{
   flex-direction: column;
+    flex-wrap: nowrap;
   
 }
     .act-img-con .button{
