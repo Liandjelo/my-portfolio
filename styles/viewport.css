@@ -105,6 +105,13 @@
   }
 @media only screen and (max-width: 766px) {
     /* Styles for Smartphones */
+  .img-con{
+    width: 85vw;
+  }
+   #sample-sites{
+
+    width: 100vw;
+}
     #works-gallery{
   flex-direction: column;
     flex-wrap: nowrap;
