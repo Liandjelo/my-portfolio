@@ -230,6 +230,7 @@ footer li {
     width: 310px;
     display: flex;
     border-radius: 10px;
+    box-shadow: 4px 6px 5px 0px rgba(0,0,0,0.75);
 }
 .activity-img-con img{
     width: 100%;
