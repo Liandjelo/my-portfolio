@@ -151,7 +151,6 @@ border-radius: 300px;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    gap: 1%;
     margin-bottom: 20px;
     opacity: 0;
    /* animation: slideLeft 1s ease-in;*/
