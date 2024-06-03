@@ -1,0 +1,171 @@
+
+@media screen and (min-width: 1400px) {
+.img-con{
+  width: 400px;
+  height: 220px;
+}
+/*   footer{
+    font-size: 25px;
+  }
+ header{
+   font-size: 25px;
+ } */
+ #Home-Content #Profile img{
+  height: 350px;
+ }
+ #Home-Content h1{
+  font-size: 60px;
+}
+#Home-Content #h2{
+  font-size: 40px;
+}
+#Home-Content #profile-description, #works-content p, #about-text p, #activity-content p, #back{
+  font-size: 25px;
+}
+.fa-facebook, .fa-square-instagram{
+  font-size: 60px;
+  color: #fff;
+
+}
+#activity-content h1 {
+  font-size: 45px;
+}
+
+#about #Profile img{
+  height: 290px;
+}
+}
+@media (max-width: 1110px){
+  #works-gallery{
+    gap: 10px;
+  }
+}
+@media only screen and (min-width: 767px) and (max-width: 1110px) {
+  #works-gallery{
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  .act-img-con .button{
+    font-size: 90px;
+}
+    #activity-content p {
+        font-size: 30px;
+    }
+    #activity-content h1 {
+        font-size: 45px;
+    }
+    #back{
+        font-size: 30px;
+      
+    }
+    .fa-facebook, .fa-square-instagram{
+      font-size: 60px;
+      color: #fff;
+  }
+  
+  .act-img-con{
+    width: 100%;
+   }
+   .img-buttons{
+    width: 80%;
+   }
+    #Home-Content{
+      flex-direction: column;
+    }
+    header ul a {
+        font-size: 23px;
+    }
+    #Home-Content h1{
+        font-size: 60px;
+      }
+      #about h1{
+        font-size: 60px;
+      }
+      #Home-Content #h2{
+        font-size: 45px;
+      }
+      #Home-Content #profile-description{
+        font-size: 30px;
+      }
+      footer ul li{
+        font-size: 30px;
+      }
+     #works-content #work-text, #about-text p{
+       font-size: 30px;
+      }
+      #Home-Content #profile-description{
+        text-align: justify;
+      }
+       #works-content #work-text, #about-text p{
+        text-align: justify;
+       }
+      
+       .img-con{
+        width: 450px;
+         height: 250px;
+      }
+   
+  }
+@media only screen and (max-width: 766px) {
+    /* Styles for Smartphones */
+  .img-con{
+    width: 300px;
+    
+  }
+   #sample-sites{
+
+    width: 100vw;
+}
+    #works-gallery{
+  flex-direction: column;
+    flex-wrap: nowrap;
+  
+}
+    .act-img-con .button{
+      font-size: 40px;
+  }
+    #Home-Content{
+        flex-direction: column;
+       
+      }
+      .home-prof{
+        height: 180px;
+      }
+      #Home-Content h1{
+        font-size: 25px;
+      }
+      #Home-Content #h2{
+        font-size: 23px;
+      }
+      header ul a {
+        font-size: 12px;
+    }
+    .act-img-con{
+      width: 100%;
+     }
+     .img-buttons{
+      width: 80%;
+     }
+    #about #Profile img{
+        height: 150px;
+    }
+      footer ul li{
+        font-size: 15px;
+      }
+   
+     
+      #Home-Content #profile-description{
+        font-size: 20px;
+        text-align: justify;
+      
+      }
+      #about h1{
+        font-size: 40px;
+      }
+      #works-content #work-text, #about-text p{
+        font-size: 20px;
+        text-align: justify;
+       }
+     
+  }
+    
