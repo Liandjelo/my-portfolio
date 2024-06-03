@@ -102,15 +102,15 @@
       
        .img-con{
         width: 400px;
+         height: 200px;
       }
-       #works-gallery .image-gallery{
-        height: 200px;
-      }
+   
   }
 @media only screen and (max-width: 766px) {
     /* Styles for Smartphones */
   .img-con{
     width: 85vw;
+    
   }
    #sample-sites{
 
@@ -153,9 +153,7 @@
         font-size: 15px;
       }
    
-      #works-gallery .image-gallery{
-        width: 300px;
-      }
+     
       #Home-Content #profile-description{
         font-size: 20px;
         text-align: justify;
