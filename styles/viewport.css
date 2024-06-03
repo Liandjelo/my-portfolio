@@ -155,7 +155,7 @@
    
      
       #Home-Content #profile-description{
-        font-size: 20px;
+        font-size: 16px;
         text-align: justify;
       
       }
@@ -163,7 +163,7 @@
         font-size: 40px;
       }
       #works-content #work-text, #about-text p{
-        font-size: 20px;
+        font-size: 16px;
         text-align: justify;
        }
      
