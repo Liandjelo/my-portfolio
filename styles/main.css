@@ -235,6 +235,7 @@ footer li {
     border-radius: 20px;
     box-shadow: 4px 6px 5px 0px rgba(0,0,0,0.75);
     border: 15px solid #510404;
+    background-size: 100% 100%;
 }
 .activity-img-con img{
     width: 100%;
