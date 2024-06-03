@@ -9,7 +9,9 @@
     src: local("myriad"), url('../page-src/fonts/myriad-pro/MYRIADPRO-REGULAR.OTF') format('opentype'),
          url('../page-src/fonts/myriad-pro/myriad-pro/MYRIADPRO-SEMIBOLD.OTF') format('opentype');
 }
-
+#h2-color{
+    color:  #007eff;
+}
 body{
     margin: 0px;
 }
