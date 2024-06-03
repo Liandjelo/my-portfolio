@@ -162,7 +162,7 @@
       #about h1{
         font-size: 40px;
       }
-      #works-content #work-text, #about-text p,  #activity-content p{
+      #works-content #work-text, #about-text p,  #activity-content p, #back{
         font-size: 16px;
         text-align: justify;
        }
