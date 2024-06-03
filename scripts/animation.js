@@ -6,6 +6,9 @@ function slideInText(x,y){
 function fadeIn(x,y){
     document.getElementById(x).style.transition = y;
     document.getElementById(x).style.opacity = "1";
+        setTimeout(() => {
+        document.getElementById(x).style.transition = '';
+    }, y.substring(y.lastIndexOf(),1) * 1000);
 }
 
 function hideElement(x, y){
