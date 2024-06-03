@@ -156,9 +156,7 @@ border-radius: 300px;
     opacity: 0;
    /* animation: slideLeft 1s ease-in;*/
 }
-#works-gallery img{
-    border: 1px solid #cfcfcf;
-}
+
 #works-gallery a {
     margin: 3px;
 }
@@ -231,12 +229,12 @@ footer li {
     
 }
 .img-con{
-    padding: 15px;
     background-color: #010d14;
     width: 310px;
     display: flex;
     border-radius: 20px;
     box-shadow: 4px 6px 5px 0px rgba(0,0,0,0.75);
+    border: 15px solid #510404;
 }
 .activity-img-con img{
     width: 100%;
