@@ -1,8 +1,0 @@
-
-#works-gallery .img-con:hover{
-opacity: 0.7;
-transition: 0.5s;
-}
-#works-gallery .img-con:not(hover){
-    transition: 0.2s;
-    }
